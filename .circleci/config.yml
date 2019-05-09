@@ -1,9 +1,9 @@
 version: 2
 jobs:
   build:
+    working_directory: ~/circle-ci-test
     docker:
       - image: circleci/node:latest
-    working_directory: ~/circle-ci-test
     steps:
       - checkout
       - run: pwd
@@ -17,7 +17,7 @@ jobs:
       # - run:
       #     name: Update npm
       #     command: 'sudo npm install -g npm@latest'
-      - run: npm install --verbose
+      - run: npm install -g
       # - run: npm test
       # - run: node --version
       - run: serverless --version
