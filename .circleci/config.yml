@@ -9,7 +9,7 @@ jobs:
       - run: pwd
       - run: cat package.json
       - run: ls
-      - run: npm install -g serverless
+      - run: sudo npm install -g serverless
 
       # - run:
       #     name: Update npm
