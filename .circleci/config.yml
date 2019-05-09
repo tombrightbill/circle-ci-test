@@ -8,6 +8,7 @@ jobs:
       - checkout
       - run: pwd
       - run: cat package.json
+      - run: ls
       - run: npm install
       - run: node --version
       - run: serverless --version
