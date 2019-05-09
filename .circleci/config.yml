@@ -9,8 +9,8 @@ jobs:
       - run: pwd
       - run: cat package.json
       - run: ls
-      - run: npm install serverless
-      
+      - run: npm install -g serverless
+
       # - run:
       #     name: Update npm
       #     command: 'sudo npm install -g npm@latest'
