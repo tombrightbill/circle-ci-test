@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/tombrightbill/circle-ci-test#readme",
   "dependencies": {
-    "serverless": "^1.42.0",
+    "serverless": "^1.42.1",
     "serverless-cloudflare-workers": "^1.2.0"
   }
 }
