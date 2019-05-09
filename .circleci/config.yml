@@ -20,5 +20,5 @@ jobs:
       - run: sudo npm install -g
       # - run: npm test
       # - run: node --version
-      - run: serverless --version
+      - run: sudo serverless --version
 
